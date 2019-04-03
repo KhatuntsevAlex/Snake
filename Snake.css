@@ -1,0 +1,49 @@
+/*РАЗМЕР ПО НАРУЖНОЙ ГРАНИЦЕ*/
+* {
+	box-sizing: border-box;
+}
+
+/*ОТСТУПЫ ДЛЯ БОДИ ОТ КАЖДОГО КРАЯ СТРАНИЦЫ*/
+body {
+	margin: 50px;
+}
+
+/* СТИЛИ КЛАССА ФИЛД*/
+.field {
+	width: 500px; /*ширина*/
+	height: 500px;
+	margin: 0 auto; /*отступ от верх-низ 0, от лево/право авто*/
+	display: flex; /*определяет, что окно поля филд будет размещать элементы*/
+	flex-wrap: wrap; /*задает правило вывода флекс-элементов (врап - по порядку с переносом)*/
+	/*background: url(scale.jpg); */
+	background-color: #cccccc; /*цвет фона*/
+}
+
+.excel {
+	width: 50px;
+	height: 50px;
+	padding: 5px; /*поля вокруг содержимого данного элемента*/
+}
+
+.snakeBody {
+	background: url(scale.jpg); /* фон тела змеи*/
+	background-size: cover; /*заполнение фоном - растяжение по объекту*/
+	border-radius: 50%; /*закругление окружной рамки*/
+}
+
+.head {
+	background: url(head.gif); /* фон головы змеи*/
+	background-size: cover; /*заполнение фоном - растяжение по объекту*/
+	border-radius: 10%; /*закругление окружной рамки	*/
+}
+
+.mouse {
+	background: url(mouse.jpg); /* фон мыши*/
+	background-size: cover; /*заполнение фоном - растяжение по объекту*/
+	border-radius: 50%; /*закругление окружной рамки	*/
+}
+
+.input {
+	margin: 50px auto;
+	padding: 5px;
+}
