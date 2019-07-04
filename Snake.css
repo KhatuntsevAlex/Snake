@@ -1,50 +1,46 @@
-/*РАЗМЕР ПО НАРУЖНОЙ ГРАНИЦЕ*/
 * {
-	box-sizing: border-box;
-	overflow: hidden;
+  box-sizing: border-box;
+  overflow: hidden;
 }
 
-/*ОТСТУПЫ ДЛЯ БОДИ ОТ КАЖДОГО КРАЯ СТРАНИЦЫ*/
 body {
-	margin: 50px;
+  margin: 50px;
 }
 
-/* СТИЛИ КЛАССА ФИЛД*/
 .field {
-	width: 500px; /*ширина*/
-	height: 500px;
-	margin: 0 auto; /*отступ от верх-низ 0, от лево/право авто*/
-	display: flex; /*определяет, что окно поля филд будет размещать элементы*/
-	flex-wrap: wrap; /*задает правило вывода флекс-элементов (врап - по порядку с переносом)*/
-	/*background: url(scale.jpg); */
-	background-color: #cccccc; /*цвет фона*/
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #cccccc;
 }
 
 .excel {
-	width: 50px;
-	height: 50px;
-	padding: 5px; /*поля вокруг содержимого данного элемента*/
+  width: 50px;
+  height: 50px;
+  padding: 5px;
 }
 
 .snakeBody {
-	background: url(scale.jpg); /* фон тела змеи*/
-	background-size: cover; /*заполнение фоном - растяжение по объекту*/
-	border-radius: 50%; /*закругление окружной рамки*/
+  background: url(scale.jpg);
+  background-size: cover;
+  border-radius: 50%;
 }
 
 .head {
-	background: url(head.gif); /* фон головы змеи*/
-	background-size: cover; /*заполнение фоном - растяжение по объекту*/
-	border-radius: 10%; /*закругление окружной рамки	*/
+  background: url(head.gif);
+  background-size: cover;
+  border-radius: 10%;
 }
 
 .mouse {
-	background: url(mouse.jpg); /* фон мыши*/
-	background-size: cover; /*заполнение фоном - растяжение по объекту*/
-	border-radius: 50%; /*закругление окружной рамки	*/
+  background: url(mouse.jpg);
+  background-size: cover;
+  border-radius: 50%;
 }
 
 .input {
-	margin: 50px auto;
-	padding: 5px;
+  margin: 50px auto;
+  padding: 5px;
 }
